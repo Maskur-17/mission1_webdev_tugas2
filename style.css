@@ -1,0 +1,261 @@
+.header {
+    margin: 10px;
+    padding-top: 5px;
+    padding-right: 230px;
+    padding-left: 200px;
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.logo {
+    width: 180px;
+    height: 50px;
+}
+
+
+/*navigasi*/
+
+.header a.lessons {
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #949EB2;
+}
+
+.lessons:hover {
+    background-color: #949EB2;
+}
+
+.header a.tollkit {
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #A1A2A4;
+}
+
+.tollkit:hover {
+    background-color: #949EB2;
+}
+
+.header a.signin {
+    word-spacing: 3px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #949EB2;
+}
+
+.signin:hover {
+    background-color: #96969622;
+}
+
+.header-right {
+    float: right;
+}
+
+.container {
+    padding: 30px 250px;
+    font-family: sans-serif, unset;
+    font-size: 40px;
+}
+
+
+/*table*/
+
+.table1 {
+    text-align: left;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-left: 220px;
+    margin-right: 250px;
+    background-color: rgb(233, 236, 239);
+}
+
+.textbox1 {
+    color: #091836;
+    font-size: 20px;
+    font-family: 'Calibri';
+}
+
+.textbox2 {
+    color: #4e4e4e8c;
+    font-size: 19px;
+    font-family: 'Calibri';
+    text-decoration: 'Calibri';
+}
+
+.button {
+    font-family: 'Calibri';
+    font-size: 15px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: rgba(231, 231, 231, 0.837)1px solid;
+    border-radius: 5px;
+    padding: 9px 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0.9px #999;
+}
+
+.button:hover {
+    background-color: #56565618;
+}
+
+
+/*bagan1*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.card {
+    width: 70%;
+    display: flex;
+}
+
+.card>.gambar1 {
+    padding-top: 50px;
+    padding-left: 0px;
+    height: 120px;
+    width: 160px;
+}
+
+h3 {
+    margin-left: 20px;
+    color: rgba(255, 48, 48, 0.83);
+    font-size: 30px;
+    font-family: 'Calibri';
+}
+
+p {
+    margin-left: 10px;
+    color: #000000b5;
+    font-size: 17px;
+    font-family: 'Calibri';
+}
+
+.profile1 {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+small {
+    padding-top: 10px;
+    color: dimgray;
+    font-family: 'Calibri';
+    float: right;
+    font-size: 12px;
+}
+
+.button1 {
+    font-family: 'Calibri';
+    font-size: 15px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: rgba(231, 231, 231, 0.837)1px solid;
+    border-radius: 5px;
+    padding: 9px 14px;
+    margin-top: 10px;
+    margin-left: 19px;
+    cursor: pointer;
+}
+
+.table2 {
+    text-align: left;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 480px;
+    margin-right: 480px;
+    background-color: rgb(233, 236, 239);
+}
+
+.btn2 {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 14px 18px;
+    margin: 7px 100;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 1px 2px #999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+footer {
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+}
+
+.content {
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+.mh-auto {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-top {
+    border-top: 1px solid #f4f5f7;
+}
+
+p {
+    display: block;
+    padding-left: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer-item {
+    display: flex;
+    margin-right: 50px;
+    padding: 16px;
+    font-size: 17px;
+}
+
+a {
+    padding-left: 1rem;
+    text-align: right;
+    color: #949EB2;
+    text-decoration: none;
+}
